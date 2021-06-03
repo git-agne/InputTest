@@ -14,13 +14,13 @@ public class Main {
         int n3 = s.nextInt();
 
         if(n1 > n2 && n1 > n3){
-            System.out.println("Il maggiore è " + n1);
+            System.out.println("Il numero maggiore è il primo e vale " + n1);
         }
         else if(n2 > n1 && n2 > n3){
-            System.out.println("Il maggiore è " + n2);
+            System.out.println("Il numero maggiore è il secondo e vale " + n2);
         }
         else if(n3 > n1 && n3 > n2){
-            System.out.println("Il maggiore è " + n2);
+            System.out.println("Il numero maggiore è il terzo e vale " + n3);
         }
     }
 }
