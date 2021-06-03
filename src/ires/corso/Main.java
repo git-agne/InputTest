@@ -22,5 +22,17 @@ public class Main {
         else if(n3 > n1 && n3 > n2){
             System.out.println("Il numero maggiore è il terzo e vale " + n3);
         }
+        else if(n1 == n2 && n2 == n3){
+            System.out.println("I tre numeri sono uguali");
+        }
+        else if(n1 == n2 && n1 > n3){
+            System.out.println("Il numero maggiore è il primo e vale " + n1);
+        }
+        else if(n2 == n3 && n2 > n1){
+            System.out.println("Il numero maggiore è il secondo e vale " + n2);
+        }
+        else if(n1 == n3 && n1 > n2){
+            System.out.println("Il numero maggiore è il primo e vale " + n1);
+        }
     }
 }
